@@ -1,8 +1,25 @@
 aid: ayr-energy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ayr-energy.png
 name: Ayr Energy
-description: 'Ayr Energy is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. Sector: energy-infrastructure. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Ayr Energy is a power grid equipment manufacturer founded in 2024 and headquartered in
+  Mountain View, California, backed by General Catalyst. The company designs and builds custom-engineered
+  electrical infrastructure - power, distribution, and special-purpose transformers, high-voltage circuit
+  breakers, and medium-voltage switchgear - for renewable energy, data center, utility, industrial, and
+  oil & gas customers. Ayr operates six manufacturing facilities across India (Gujarat, Uttar Pradesh,
+  Maharashtra, and Tamil Nadu) and emphasizes accelerated delivery of grid hardware in months rather than
+  years. Ayr Energy does not currently publish a public API, developer portal, or machine-readable API
+  surface; this profile captures company identity for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/ayr-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Energy Infrastructure
+- Transformers
+- Power Grid
+- Electrical Equipment
+- Switchgear
+- Data Centers
+- Renewable Energy
+- Manufacturing
 apis: []
+common:
+- type: Website
+  url: https://ayr.energy
+- type: Blog
+  url: https://ayr.energy/resource
+- type: Support
+  url: https://ayr.energy/contact-us
+- type: PrivacyPolicy
+  url: https://ayr.energy/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ayrenergy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
