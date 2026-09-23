@@ -1,0 +1,25 @@
+# Front Door AI Index — ayr-energy — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: ayr-energy
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: ayr.energy
+  final_host: www.ayr.energy
+  ownership: own
+  owner: ayr-energy
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 4
+  host_score: 4
+  density: 6.55
+  words: 611
+  tiers:
+    agentic: 0
+    core: 0
+    model: 4
+  ambiguous: 0
+  top_terms:
+    transformer: 4
