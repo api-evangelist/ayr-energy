@@ -48,7 +48,7 @@ tags:
 - Power Grid
 - Electrical Equipment
 - Switchgear
-- Data-Center
+- Data Center
 - Renewable Energy
 - Manufacturing
 tags_raw:
@@ -61,6 +61,7 @@ tags_raw:
 - Data Centers
 - Renewable Energy
 - Manufacturing
+- Data-Center
 apis: []
 common:
 - type: Website
